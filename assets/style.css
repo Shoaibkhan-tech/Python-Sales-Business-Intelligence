@@ -1,0 +1,61 @@
+/* Main dashboard background */
+.stApp {
+    background-color: #F4F7FB;
+}
+
+/* Main headings */
+h1, h2, h3 {
+    color: #17365D;
+    font-weight: 700;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E1E8F0;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Metric labels */
+div[data-testid="stMetricLabel"] {
+    color: #64748B;
+}
+
+/* Metric values */
+div[data-testid="stMetricValue"] {
+    color: #17365D;
+    font-weight: bold;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #EAF1F8;
+}
+
+/* Data tables */
+div[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #17365D;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Download buttons */
+.stDownloadButton button {
+    background-color: #17365D;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Horizontal separators */
+hr {
+    border-color: #DCE5EF;
+}
